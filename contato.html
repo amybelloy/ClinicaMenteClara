@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendimento | Clínica Mente Clara</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="scrolled">
+        <!-- Same Header -->
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"><i class="fa-solid fa-brain"></i></div>
+                <span>Mente <b>Clara</b></span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="profissionais.html">Corpo Clínico</a></li>
+                    <li><a href="contato.html" class="active">Atendimento</a></li>
+                </ul>
+            </nav>
+            <a href="contato.html" class="btn nav-cta">Agendar Consulta</a>
+            <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="reveal">Fale Conosco</h1>
+                <p class="reveal">Estamos prontos para acolher sua demanda e iniciar sua jornada de cuidado.</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="contact-container">
+                <div class="contact-info-card reveal">
+                    <h3>Canais de Atendimento</h3>
+                    <ul class="footer-contact" style="list-style: none;">
+                        <li style="color: white; margin-bottom: 2rem;">
+                            <i class="fa-solid fa-phone" style="font-size: 1.5rem;"></i>
+                            <div>
+                                <strong>Telefone / WhatsApp</strong><br>
+                                (21) 99999-9999
+                            </div>
+                        </li>
+                        <li style="color: white; margin-bottom: 2rem;">
+                            <i class="fa-solid fa-envelope" style="font-size: 1.5rem;"></i>
+                            <div>
+                                <strong>E-mail</strong><br>
+                                contato@menteclara.com.br
+                            </div>
+                        </li>
+                        <li style="color: white; margin-bottom: 2rem;">
+                            <i class="fa-solid fa-clock" style="font-size: 1.5rem;"></i>
+                            <div>
+                                <strong>Horário</strong><br>
+                                Seg a Sex: 08h às 20h
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="social-links" style="margin-top: 3rem;">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-card reveal">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label>Nome Completo</label>
+                            <input type="text" id="name" placeholder="Como podemos te chamar?" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Assunto</label>
+                            <select id="subject">
+                                <option>Primeira Consulta</option>
+                                <option>Dúvidas Gerais</option>
+                                <option>Financeiro / Convênios</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Mensagem</label>
+                            <textarea id="message" rows="5" placeholder="Conte-nos brevemente como podemos ajudar..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar para WhatsApp</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="map-container reveal">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2063071374535!2d-43.1119!3d-22.9027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f39446d3f23%3A0xbd7d686f345517e4!2sIcara%C3%AD%2C%20Niter%C3%B3i%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1680000000000!5m2!1spt-BR!2sbr" 
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon" style="background: var(--white); color: var(--bg-dark);"><i class="fa-solid fa-brain"></i></div>
+                        <span style="color: white;">Mente <b>Clara</b></span>
+                    </a>
+                    <p>Cuidando da saúde mental com ciência, empatia e tecnologia em Niterói - RJ.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Acesso Rápido</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="profissionais.html">Médicos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Especialidades</h4>
+                    <ul>
+                        <li><a href="servicos.html">Psiquiatria Adulta</a></li>
+                        <li><a href="servicos.html">Neurofeedback</a></li>
+                        <li><a href="servicos.html">Terapia de Casal</a></li>
+                        <li><a href="servicos.html">Tratamento de TDAH</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i> (21) 99999-9999</li>
+                        <li><i class="fa-solid fa-envelope"></i> contato@menteclara.com.br</li>
+                        <li><i class="fa-solid fa-location-dot"></i> Icaraí, Niterói - RJ</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Clínica Mente Clara. Todos os direitos reservados.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
